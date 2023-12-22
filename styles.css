@@ -65,7 +65,7 @@ a {
 .sign-up {
   background-color: #e7e7e7;
   border: none;
-  color: black;
+  color:  rgb(57, 12, 189);
   padding: 4px 10px;
   text-align: center;
   text-decoration: none;
@@ -76,32 +76,43 @@ a {
 }
 
 .sign-up:hover {
-  background-color: #000000; /* Green */
+  border: 2px solid white;
+  background-color: rgb(57, 12, 189); /* Green */
   color: rgb(255, 255, 255);
 }
 
-.information-body {
-  flex: 1;
+
+.information-body h2 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(57, 12, 189);
 }
 
 .information-container {
   /* padding: 32px; */
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   /* width: 400px; */
 }
 
 .card-container {
   width: 150px;
-  margin: 0px;
+  margin: 10px;
 }
 
-.card-container img {
+.card img {
   width:100%;
   height:150px;
   object-fit:cover;
   border-radius: 7px;
+}
+
+.card-container p {
+  text-align: center;
+  color: grey;
 }
 
 .card {

@@ -43,6 +43,8 @@ a {
 .ipad {
   width: 300px;
   height: auto;
+  border-radius: 7px;
+
 }
 
 .one-body {
@@ -58,8 +60,13 @@ a {
 }
 
 .hero-left {
-  flex-basis: 300px;
+  flex-basis: 350px;
   color: white;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: extra-bold;
 }
 
 .sign-up {
@@ -87,6 +94,8 @@ a {
   align-items: center;
   justify-content: center;
   color: rgb(57, 12, 189);
+  font-size: 36px;
+  font-weight: extra-bold;
 }
 
 .information-container {
@@ -100,7 +109,7 @@ a {
 
 .card-container {
   width: 150px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .card img {
@@ -112,7 +121,7 @@ a {
 
 .card-container p {
   text-align: center;
-  color: grey;
+  color: rgb(163, 131, 252);
 }
 
 .card {

@@ -135,3 +135,24 @@ h1 {
   /* margin: 16px; */
   /* width: 300px; */
 }
+
+.quote-section {
+  display: flex;
+  background-color: #E5E7EB;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+} 
+
+.quote {
+  flex-basis: 350px;
+}
+
+.quote p{
+  color: rgb(116, 68, 249);
+}
+
+h3 {
+  margin-left: 200px;
+  color: rgb(116, 68, 249);
+}

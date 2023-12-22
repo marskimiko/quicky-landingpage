@@ -57,18 +57,25 @@ a {
   /* flex-direction: column; */
 }
 
-.heroleft {
+.hero-left {
   flex-basis: 300px;
   color: white;
 }
 
-.signup {
-  background-color: #04AA6D; /* Green */
+.sign-up {
+  background-color: #e7e7e7;
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: black;
+  padding: 4px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.sign-up:hover {
+  background-color: #000000; /* Green */
+  color: rgb(255, 255, 255);
 }

@@ -156,3 +156,40 @@ h3 {
   margin-left: 200px;
   color: rgb(116, 68, 249);
 }
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action .container {
+  background: rgb(116, 68, 249);
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* display: flex; */
+  gap: 16px;
+  padding: 16px;
+  margin: 60px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.container .sign-up {
+  margin-right: auto;
+}

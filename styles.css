@@ -6,12 +6,53 @@ body {
   flex-direction: column;
 }
 
-.ipad {
-  width: 300px;
-  height: auto;
+.hero {
+ /* display: flex; */
+ background: rgb(57, 12, 189);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  width: 100%;
 }
 
 .logo {
   width: 200px;
   height: auto;
+  margin: 10px;
+}
+
+.right {
+  display: flex;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.ipad {
+  width: 300px;
+  height: auto;
+}
+
+.one-body {
+  /* flex: 1; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  /* flex-direction: column; */
+}
+
+.heroleft {
+  
 }

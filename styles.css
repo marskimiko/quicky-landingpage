@@ -208,3 +208,7 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+
+.footer p {
+  text-decoration: underline;
+}
